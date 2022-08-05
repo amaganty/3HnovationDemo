@@ -1,0 +1,207 @@
+@import url(https://allfont.net/allfont.css?fonts=agency-fb);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+@font-face {
+    font-family:'Gilroy';
+    src: url(fonts/Gilroy-ExtraBold.otf);
+}
+
+:root{
+    --theme_color:#F5F5F5;
+    --font_color:#333333;
+    --second_color:#828282;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    background: linear-gradient(#F5F5F5);
+    height: 100vh;
+    width: 45vw;
+}
+
+h1.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+    font-family: Roboto;
+    font-size: 31x;
+    color: var(--font_color);
+    font-weight: 700;
+}
+
+.girl {
+    height: 100vh;
+    display: block;
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.credentials{
+    font-family: Gilroy;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    color: var(--second_color);
+    font-size: 20px;
+}
+
+.left{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    background-color: #F5F5F5;
+}
+
+.top h1{
+    font-family: Roboto;
+    font-size: 58px;
+    margin: 0 31rem 0;
+    align-items: center;
+    color: var(--font_color);
+}
+
+.top p{
+    margin : 1rem 23rem 0;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 21.5px;
+    color: var(--second_color);
+
+}
+
+.google {
+    display:flex;
+    margin: 2rem 22rem 0;
+}
+
+.or-divider {
+    display:flex;
+    margin: 2rem 22rem 0;
+}
+
+.middle{
+    margin: 7rem 14rem 0;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.control_email{
+    margin-top: 2rem 22rem 0;
+}
+
+.control_email input{
+    width: 20vw;
+    display: flex;
+    padding: 20px;
+    margin: 12px 0 40px 0;
+    border: 1.5px solid var(--theme_color);
+    border-radius: 10px;
+    outline-color: var(--second_color);
+}
+
+.pwd{
+    display: flex;
+    margin: 0 30rem 0;
+}
+
+.control_pass input{
+    justify-content: space-between;
+    width: 20vw;
+    display: flex;
+    padding: 20px;
+    margin: 12px 0 0 0;
+    border: 1.5px solid var(--theme_color);
+    border-radius: 10px;
+    outline-color: var(--second_color);
+}
+
+.control_email label{
+    font-size: 17px;
+}
+
+.control_pass label{
+    font-size: 17px;
+}
+
+.control_login input{
+    width: 21.5vw;
+    padding: 20px;
+    margin: 1rem 0 0;
+    background-color: #2F80ED;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bottom{
+    display:flex;
+    justify-content: left;
+    margin: 1rem 22rem 0;
+    align-items: center;
+    font-family:Roboto;
+    font-weight:500;
+    font-size: 20px;
+}
+
+.bottom p{
+    margin: 0%;
+    color: var(--font_color);
+    font-weight: 400;
+}
+.bottom a{
+    color: var(--font_color);
+    margin-right: 6px;
+}
+.login #email_error, .login #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #070000;
+    background: rgba(225, 0, 0, 0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+
+}
+.login #check_email {
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #070000;
+    background: rgba(225,0,0,0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #efa29a;
+    display: none;
+
+}

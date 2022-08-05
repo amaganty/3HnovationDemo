@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Website</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "left">
+            <div class = "for_center">
+                <div class = "top">
+                    <h1>Login</h1>
+                    <p> Enter your credentials to acess your account</p>
+                    <img class= "google" src = "Images/Google login-Social login.svg" alt=''>
+                    <img class= "or-divider" src = "Images/Or-Devider.svg" alt=''>
+                </div>
+                <div class= "middle">  
+                    <form class="login"action="success.html" method="post" name="form" onsubmit="return validated()">
+                        <div class = "control_email">
+                            <label for="email">Email Adress</label>
+                            <div id="email_error"> All fields are required</div>
+                            <div id="check_email"> Please enter a valid email</div>
+                            <input autocomplete="off" type ="text" name="email">    
+                        </div>
+                        <div class = "control_pass">
+                            <label for="pass">Password</label> 
+                            <a href="#" class = "pwd"> Forgot Password?</a>
+                            <div id="pass_error"> All fields are required</div> 
+                            <input autocomplete="off" type="text" name="password">
+                        </div>
+                        <div class = "box_pwd">
+                        </div>
+                        <div class="control_login">
+                            <input type="submit" value="Login">
+                        </div>
+                    </form>
+                </div>
+                <div class="bottom">
+                    <p>Dont have an account?</p>
+                    <li><a href = "#"> Register Here</a></li>
+                </div>
+            </div>
+        
+        </div>
+
+        <div class = "right"></div>
+        <img class = "girl" src = "Images/Girlonbike.png" alt=''>
+        
+    </div>
+    <script src = "valid.js"></script>
+    
+</body>
+</html>
